@@ -20,7 +20,7 @@
 <body>
   <!--Navbar -->
   <nav id="topper" class="mb-1 navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler breed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
@@ -31,10 +31,13 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
+          <a class="nav-link" href="#jump1">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contacts.html">Contact Us</a>
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jump">Gallery</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Students welfare
@@ -81,7 +84,7 @@
   <!--/.Navbar -->
   <!--header with slider image-->
   <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide intro" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -91,28 +94,28 @@
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active" style="background-image: url('images/schul.jpg')">
-          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center d-flex text-center h-50">
+          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center text-center h-50">
             <h3 class="display-4">Barks Pimary School</h3>
             <p class="lead">learn to understand</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('images/lib.jpg')">
-          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center d-flex text-center h-50">
+          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center text-center h-50">
             <h3 class="display-4">School Library</h3>
             <p class="lead">You will always be ahead in syllabus</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('images/pupil.jpg')">
-          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center d-flex text-center h-50">
+          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center text-center h-50">
             <h3 class="display-4">School Pupils</h3>
             <p class="lead">We care for the future of your kids</p>
           </div>
         </div>
         <!-- Slide four - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('images/bus.jpg')">
-          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center d-flex text-center h-50">
+          <div class="carousel-caption d-none d-md-block justify-content-center align-items-center text-center h-50">
             <h3 class="display-4">School Transport</h3>
             <p class="lead">Safe ride home for students</p>
           </div>
@@ -130,7 +133,7 @@
   </header>
   <!--header with slider image-->
   <!--start of about us-->
-  <div class="container-fluid">
+  <div id="jump2" class="container-fluid">
     <div class="container">
       <div class="fetured-info pt-lg-5 pt-3 mt-4">
         <h3 class="tittle text-center my-lg-5 my-3"><span class="sub-tittle">Welcome To Barks Primary School</span></h3>
@@ -177,12 +180,13 @@
   </div>
   <!--end of about us-->
   <!--our team start-->
+  <div class="staff">
   <div class="container">
     <h3 class="tittle text-center my-lg-5 my-3"><span class="sub-tittle">Meet Our Team</span></h3>
     <div class="row one">
       <div class="col-md-3 col-sm-6">
         <div class="box18">
-          <img src="images/expe.jpeg" alt="">
+          <img src="images/te1.jpg" alt="">
           <div class="box-content">
             <h3 class="title">John Mbugua</h3>
             <span class="post">Head Master</span>
@@ -191,7 +195,7 @@
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="box18">
-          <img src="images/mas.jpg" alt="">
+          <img src="images/te2.jpg" alt="">
           <div class="box-content">
             <h3 class="title">John Mbugua</h3>
             <span class="post">Head Master</span>
@@ -200,7 +204,7 @@
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="box18">
-          <img src="images/expe.jpeg" alt="">
+          <img src="images/te3.jpg" alt="">
           <div class="box-content">
             <h3 class="title">Kristiana Kiarie</h3>
             <span class="post">Deputy Headmaster</span>
@@ -209,7 +213,7 @@
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="box18">
-          <img src="images/suit.jpeg" alt="">
+          <img src="images/te4.jpg" alt="">
           <div class="box-content">
             <h3 class="title">Chris Zangu</h3>
             <span class="post">Head Teacher</span>
@@ -222,36 +226,39 @@
   <!--team two start-->
   <div class="container">
     <div class="row one">
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-3 col-sm-6 tec1">
         <div class="box18">
-          <img src="images/expe.jpeg" alt="">
+          <img src="images/te5.jpg" alt="">
           <div class="box-content">
             <h3 class="title">John Mbugua</h3>
             <span class="post">Head Master</span>
           </div>
         </div>
+        <h3 class="my-3 only">HeadMaster</h3>
       </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-3 col-sm-6 tec2">
         <div class="box18">
-          <img src="images/mas.jpg" alt="">
+          <img src="images/te6.jpeg" alt="">
           <div class="box-content">
             <h3 class="title">John Mbugua</h3>
             <span class="post">Head Master</span>
           </div>
         </div>
+        <h3 class="my-3 only">Deputy HeadMaster</h3>
       </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-3 col-sm-6 tec3">
         <div class="box18">
-          <img src="images/expe.jpeg" alt="">
+          <img src="images/te4.jpg" alt="">
           <div class="box-content">
             <h3 class="title">Kristiana Kiarie</h3>
             <span class="post">Deputy Headmaster</span>
           </div>
         </div>
+          <h3 class="my-3 only">HeadTeacher</h3>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="box18">
-          <img src="images/suit.jpeg" alt="">
+          <img src="images/te1.jpg" alt="">
           <div class="box-content">
             <h3 class="title">Chris Zangu</h3>
             <span class="post">Head Teacher</span>
@@ -260,17 +267,17 @@
       </div>
     </div>
   </div>
+</div>
   <!--end of team two-->
-  <h3 class="tittle text-center my-lg-5 my-3"><span class="sub-tittle">Why Choose Us</span></h3>
-  <div class="container">
-
+  <div class="container schul">
+<h3 id="jump1" class="tittle text-center my-lg-5 my-3"><span class="sub-tittle">Why Choose Us</span></h3>
     <div id="demo" class="carousel slide" data-ride="carousel">
 
 
       <!-- The slideshow -->
-      <div class="carousel-inner no-padding my-5">
+      <div class="carousel-inner no-padding my-5 find">
         <div class="carousel-item active">
-          <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class="col-sm-4 col-md-4">
             <a href="#" onclick=abc(this) class="slider_info">
               <div id="sett">
                 <img class="img-fluid card-img-top" src="images/med.jpg">
@@ -280,7 +287,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt quam obcaecati maiores atque labore fugiat tenetur tempore veritatis temporibus!</p>
 
           </div>
-          <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class=" col-sm-4 col-md-4">
             <a href="#" onclick=abc(this) class="slider_info">
               <div id="sett">
                 <img class="img-fluid card-img-top rounded-bottom" src="images/lib.jpg">
@@ -290,7 +297,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt quam obcaecati maiores atque labore fugiat tenetur tempore veritatis temporibus!</p>
 
           </div>
-          <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class=" col-sm-4 col-md-4">
             <a href="#" onclick=abc(this) class="slider_info">
               <div id="sett">
                 <img class="img-fluid card-img-top rounded-bottom" src="images/meals.jpg">
@@ -303,7 +310,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class=" col-sm-4 col-md-4">
             <a href="#" onclick=abc(this) class="slider_info">
               <div id="sett">
                 <img class="img-fluid card-img-top" src="images/clubs.jpg">
@@ -313,7 +320,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt quam obcaecati maiores atque labore fugiat tenetur tempore veritatis temporibus!</p>
 
           </div>
-          <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class=" col-sm-4 col-md-4">
             <a href="#" onclick=abc(this) class="slider_info">
               <div id="sett">
                 <img class="img-fluid card-img-top" src="images/perf.jpg">
@@ -325,7 +332,7 @@
             </p>
 
           </div>
-          <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class=" col-sm-4 col-md-4">
             <a href="#" onclick=abc(this) class="slider_info">
               <div id="sett">
                 <img class="img-fluid card-img-top" src="images/bus.jpg">
@@ -335,10 +342,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt quam obcaecati maiores atque labore fugiat tenetur tempore veritatis temporibus!</p>
 
           </div>
-        </div>
       </div>
 
       <!-- Left and right controls -->
+      <div class="spot">
       <a class="carousel-control-prev" href="#demo" data-slide="prev">
         <span class="carousel-control-prev-icon sp"></span>
       </a>
@@ -346,9 +353,11 @@
         <span class="carousel-control-next-icon sp"></span>
       </a>
     </div>
+    </div>
   </div>
+</div>
   <!--Testimonials-->
-  <h3 class="tittle text-center my-lg-5 my-3"><span class="sub-tittle">What Happy Parents Say About Us</span></h3>
+  <h3 class="tittle text-center my-lg-5 my-3 say"><span class="sub-tittle">What Happy Parents Say About Us</span></h3>
   <div class="container-fluid test">
     <div class="slider seen">
       <div class="slide slide1">
@@ -356,7 +365,7 @@
           <div class="pro1">
           </div>
           <h5>John Gregory</h5>
-          <p class="text-center">This is one of the best schools you can bring your son to study</p>
+          <p class="text-center"><span class="fa fa-quote-left"></span> This is one of the best schools you can bring your son to study <span class="fa fa-quote-right"></span></p>
         </div>
       </div>
       <div class="slide slide2">
@@ -364,7 +373,7 @@
           <div class="pro2">
           </div>
           <h5>John Gregory</h5>
-          <p class="text-center">This is one of the best schools you can bring your son to study</p>
+          <p class="text-center"><span class="fa fa-quote-left"></span> This is one of the best schools you can bring your son to study <span class="fa fa-quote-right"></span></p>
         </div>
       </div>
       <div class="slide slide3">
@@ -372,7 +381,7 @@
           <div class="pro3">
           </div>
           <h5>John Gregory</h5>
-          <p class="text-center">This is one of the best schools you can bring your son to study</p>
+          <p class="text-center"><span class="fa fa-quote-left"></span> This is one of the best schools you can bring your son to study <span class="fa fa-quote-right"></span></p>
         </div>
       </div>
       <div class="slide slide4">
@@ -380,7 +389,7 @@
           <div class="pro4">
           </div>
           <h5>John Gregory</h5>
-          <p class="text-center">This is one of the best schools you can bring your son to study</p>
+          <p class="text-center"><span class="fa fa-quote-left"></span> This is one of the best schools you can bring your son to study <span class="fa fa-quote-right"></span></p>
         </div>
       </div>
     </div>
@@ -451,8 +460,8 @@
   </div>
   <!--end of events-->
   <!--start of gallery-->
-  <h3 class="tittle text-center my-lg-5 my-3"><span class="sub-tittle">Gallery</span></h3>
-  <div class="container">
+  <h3 id="jump" class="tittle text-center my-lg-5 my-3"><span class="sub-tittle">Gallery</span></h3>
+  <div class="container deed">
     <div class="row">
       <div class="col-md-4 col-sm-6">
         <div class="boxing">
@@ -543,7 +552,118 @@
     </div>
 
   </div>
+  <!--end of gallery-->
+  <!--contact form start-->
+  <br />
+  <br />
+  <section class="contact pt-100 pb-100" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 mx-auto text-center">
+          <div class="section-title mb-100">
+            <h4>Get In Touch With Us</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-8">
+          <form action="#" class="contact-form">
+            <div class="row">
+              <div class="col-xl-6">
+                <input type="text" placeholder="*name">
+              </div>
+              <div class="col-xl-6">
+                <input type="text" placeholder="*email">
+              </div>
+              <div class="col-xl-6">
+                <input type="text" placeholder="*subject">
+              </div>
+              <div class="col-xl-6">
+                <input type="text" placeholder="*telephone">
+              </div>
+              <div class="col-xl-12">
+                <textarea placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <div class="single-contact">
+            <i class="fa fa-map-marker"></i>
+            <h5>Address</h5>
+            <p>P.O. Box 2323 - 20117, Nakuru</p>
+          </div>
+          <div class="single-contact">
+            <i class="fa fa-phone"></i>
+            <h5>Phone</h5>
+            <p>+254 715 232 786</p>
+            <p>+254 735 092 113</p>
+          </div>
+          <div class="single-contact">
+            <i class="fa fa-envelope"></i>
+            <h5>Email</h5>
+            <p>barksprimary@gmail.com</p>
+          </div>
+          <div class="single-contact">
+            <i class="fa fa-map-pin"></i>
+            <h5>Location</h5>
+            <p>Barnabas, Nakuru County</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 footer-col">
+        <div class="logofooter">BARKS PRIMARY</div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+        <p><i class="fa fa-map-pin fa-2x" style="margin-right:16px;"></i>Barnabas, Nakuru, Kenya</p>
+        <p><i class="fa fa-phone fa-2x" style="margin-right:12px;"></i> Phone: +254 721 782 346</p>
+        <p><i class="fa fa-envelope fa-2x" style="margin-right:12px;"></i> E-mail: barksprimary@gmail.com</p>
 
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">GENERAL LINKS</h6>
+        <ul class="footer-ul">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="#jump2"> About Us</a></li>
+          <li><a href="#contact"> Contact Us</a></li>
+          <li><a href="#"> Students Welfare</a></li>
+          <li><a href="#jump"> Gallery</a></li>
+          <li><a href="#"> Facilities</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">LATEST POST</h6>
+        <div class="post">
+          <p>Annual General Meeting 2019<span>August 3,2019</span></p>
+          <p>Academic Trip Second Term<span>August 3,2019</span></p>
+          <p>Prize Giving day <span>August 3,2019</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">Social Media</h6>
+          <i class="fab fa-linkedin social-icon linked-in" aria-hidden="true"></i>
+          <i class="fab fa-facebook social-icon facebook fa-2x" aria-hidden="true"></i>
+          <i class="fab fa-twitter social-icon twitter" aria-hidden="true"></i>
+          <i class="fab fa-google-plus social-icon google" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-12">
+      <p class="text-center">© 2019 copyright By Barks primary School.All Rights Reserved.Design By Nyauncho David</p>
+    </div>
+  </div>
+</div>
 </body>
 
 <!-- JQuery -->
