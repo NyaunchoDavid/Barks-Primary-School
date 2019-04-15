@@ -918,9 +918,6 @@ footer {
 .only{
   visibility:hidden;
 }
-.spec{
-  visibility:hidden;
-}
 /*responsive design*/
 @media(min-width:320px) and (max-width:480px){
   .intro{
@@ -937,12 +934,6 @@ footer {
   .only{
     visibility:visible;
     text-align:center;
-  }
-  .spec{
-    visibility: visible;
-  }
-  .specin{
-    visibility: hidden;
   }
   .tec1{
     visibility:visible;
