@@ -947,14 +947,14 @@ footer {
   }
   .tec2{
     visibility:visible;
-    margin-top:-80px;
+    margin-top:-50px;
   }
   .tec2 img{
     height:50vh;
   }
   .tec3{
     visibility:visible;
-    margin-top:-80px;
+    margin-top:-50px;
   }
   .tec3 img{
     height:50vh;
@@ -1006,6 +1006,9 @@ footer {
   .eve{
     margin-bottom:68px;
     width:100%;
+  }
+  .breed{
+    background-color: #ff3f34;
   }
   .deed{
     border:none;
