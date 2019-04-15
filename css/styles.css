@@ -921,7 +921,7 @@ footer {
 /*responsive design*/
 @media(min-width:320px) and (max-width:480px){
   .intro{
-    height:50vh;
+    height:60vh;
     width:100%;
   }
   .press{
