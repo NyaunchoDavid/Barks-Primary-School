@@ -14,7 +14,16 @@ body {
   width: 100%;
   z-index: 99;
 }
-
+.display-4{
+  color:#ffffff;
+  font-weight: bolder;
+  font-family: font-family: 'Candal', sans-serif;
+}
+.lead{
+  color:#ffffff;
+  font-weight: bolder;
+  font-size:28px;
+}
 .carousel-item {
   height: 100vh;
   min-height: 420px;
@@ -232,7 +241,7 @@ span.carousel-control-next-icon {
 
 #demo {
   border: none;
-  height: 500px;
+  height: 600px;
 }
 
 #sett img {
@@ -245,7 +254,7 @@ span.carousel-control-next-icon {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 55vh;
+  height: 60vh;
   border: none;
   background-color: #000;
   opacity: 0.7;
@@ -952,7 +961,7 @@ footer {
   }
   .schul{
     width:100%;
-    height:1570px;
+    height:1600px;
     border:none;
     visibility:visible;
     padding-top:80px;
@@ -964,7 +973,7 @@ footer {
   }
   .find{
     padding: 4px;
-    height:1400px;
+    height:1500px;
     width:100%;
   }
   #sett img{
@@ -973,11 +982,11 @@ footer {
     overflow:hidden;
   }
   .test{
-    height:60vh;
+    height:70vh;
     width:100%;
   }
   .test, .say{
-    font-size:24px;
+    font-size:28px;
   }
   .day1, .day2, .day3 {
     border: none;
@@ -994,8 +1003,16 @@ footer {
   .copyright{
     font-size:12px;
   }
-  .breed{
-    background:#ff3f34;;
+  .eve{
+    margin-bottom:68px;
+    width:100%;
   }
-
+  .deed{
+    border:none;
+    width:100%;
+  }
+  .deed, .row{
+    margin-left:auto;
+    margin-right:auto;
+  }
   }
