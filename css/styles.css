@@ -918,6 +918,15 @@ footer {
 .only{
   visibility:hidden;
 }
+.staff{
+  border:none;
+  width:100%;
+  height:100vh;
+  background:#fff;
+}
+.tech5, .tech6, .tech7, .tech8{
+  visibility: hidden;
+}
 /*responsive design*/
 @media(min-width:320px) and (max-width:480px){
   .intro{
@@ -1018,4 +1027,89 @@ footer {
   #way{
     margin-left:81%;
   }
+  }
+  @media(min-width:481px) and (max-width:767px){
+    .intro{
+      height:60vh;
+    }
+    .one{
+      visibility:hidden;
+    }
+    .staff{
+      border:none;
+      height:1000px;
+    }
+    #tired{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .tech1{
+      visibility:visible;
+      height:50vh;
+      width:100%;
+      margin-top: 24px;
+    }
+    .tech2{
+      visibility:visible;
+      height:50vh;
+      width:100%;
+      margin-top:24px;
+    }
+    .tech3{
+      visibility: visible;
+      height:50vh;
+      width:100%;
+      margin-top:-66px;
+    }
+    .tech4{
+      visibility: visible;
+      height:50vh;
+      width:100%;
+      margin-top: -66px;
+    }
+    .tech5{
+      visibility: visible;
+      height:50vh;
+      width:100%;
+      margin-top: -66px;
+    }
+    .tech6{
+      visibility: visible;
+      height:50vh;
+      width:100%;
+      margin-top: -66px;
+    }
+    .tech7{
+      visibility: visible;
+      height:50vh;
+      width:100%;
+      margin-top: -66px;
+    }
+    .tech8{
+      visibility: visible;
+      height:50vh;
+      width:100%;
+      margin-top: -66px;
+    }
+    .schul{
+      border:none;
+      width:100%;
+      height:1520px;
+    }
+    .find{
+      border:none;
+      height:1460px;
+    }
+    #jump1, #jummp1{
+      margin-right:50%;
+    }
+    .day1, .day2, .day3, .notice{
+      width:100%;
+    }
+    .breed{
+      background-color: #ff3f34;
+    }
+    #way{
+      margin-left:92%;
+    }
   }
